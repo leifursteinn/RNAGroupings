@@ -1,6 +1,6 @@
 #Variables and lists are icelandic names.
 #kirni = nucleotide, is just a spin of the word kirni with drei as in the German 3 in front of it.
-#keep in mind that the starting poing it always AUG, the program will print the rest of the translation from there.
+#keep in mind that the starting poing is always AUG, the program will print the rest of the translation from there.
 
 
 
