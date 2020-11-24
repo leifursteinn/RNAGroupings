@@ -23,11 +23,11 @@ z = int(len(dreikirni_start)) - int(len(dreikirni_start) % 3)
 
 for i in range(int(z/3)):
     if dreikirni_start[y] == "U":
-        if dreikirni_start[y+1] == "A" and dreikirni_start[y+2] == "G": 
+        if dreikirni_start[y+1] == "A" and dreikirni_start[y+3] == "G": 
             dreikirni = dreikirni_start[0:y+2]
-        elif dreikirni_start[y+1] == "A" and dreikirni_start[y+2] == "A":
+        elif dreikirni_start[y+1] == "A" and dreikirni_start[y+3] == "A":
             dreikirni = dreikirni_start[0:y+2]
-        elif dreikirni_start[y+1] == "G" and dreikirni_start[y+2] == "A":
+        elif dreikirni_start[y+1] == "G" and dreikirni_start[y+3] == "A":
             dreikirni = dreikirni_start[0:y+2]
         else:
             y+=3
